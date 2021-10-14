@@ -1,5 +1,5 @@
-import { OperationType } from './../../entities/Statement';
 import "reflect-metadata"
+import { OperationType } from './../../entities/Statement';
 import { CreateUserUseCase } from './../../../users/useCases/createUser/CreateUserUseCase';
 import { InMemoryUsersRepository } from './../../../users/repositories/in-memory/InMemoryUsersRepository';
 import { InMemoryStatementsRepository } from './../../repositories/in-memory/InMemoryStatementsRepository';
