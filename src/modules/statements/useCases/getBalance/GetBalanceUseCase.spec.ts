@@ -1,7 +1,7 @@
+import "reflect-metadata"
 import { GetBalanceError } from './GetBalanceError';
 import { OperationType } from './../../entities/Statement';
 import { CreateStatementUseCase } from './../createStatement/CreateStatementUseCase';
-import "reflect-metadata"
 import { CreateUserUseCase } from './../../../users/useCases/createUser/CreateUserUseCase';
 import { InMemoryUsersRepository } from './../../../users/repositories/in-memory/InMemoryUsersRepository';
 import { InMemoryStatementsRepository } from './../../repositories/in-memory/InMemoryStatementsRepository';
