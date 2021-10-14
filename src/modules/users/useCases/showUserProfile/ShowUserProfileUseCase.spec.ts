@@ -1,5 +1,5 @@
-import { ShowUserProfileError } from './ShowUserProfileError';
 import "reflect-metadata"
+import { ShowUserProfileError } from './ShowUserProfileError';
 import { CreateUserUseCase } from './../createUser/CreateUserUseCase';
 import { ICreateUserDTO } from './../createUser/ICreateUserDTO';
 import { InMemoryUsersRepository } from './../../repositories/in-memory/InMemoryUsersRepository';
@@ -32,11 +32,6 @@ describe("Show user profile", () => {
     })
 
     it("must be able to return a error if a user does not exists", async () => {
-        const data: ICreateUserDTO = {
-            email: "test@email.com",
-            name: "user",
-            password: "password"
-        }
 
         const created_user = {id: "incorrect"}
 
